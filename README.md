@@ -14,5 +14,5 @@
 2. copy the `startup_latex.sh` and your `rstudio-prefs.json` to your working directory
 3. run `startup_latex.sh` from the terminal
 ```bash
-sudo -E env "PATH=$PATH" startup_latex.sh
+sudo -E env "PATH=$PATH" bash startup_latex.sh
 ```
