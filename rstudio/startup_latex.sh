@@ -25,7 +25,7 @@ if [ -d "$TEX_LIVE_BACKUP_DIR" ]; then
     tlmgr restore --all --backupdir "$TEX_LIVE_BACKUP_DIR"
 else
     echo "installing tex live libs..."
-    tlmgr install "$TEX_LIVE_INSTALL"
+    tlmgr install $TEX_LIVE_INSTALL
     mkdir -p "$TEX_LIVE_BACKUP_DIR"
     echo "creating tex live backup..."
     tlmgr backup --all --backupdir "$TEX_LIVE_BACKUP_DIR"
