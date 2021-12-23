@@ -7,3 +7,9 @@ cd gephi
 wget "$DL_URL" -O "$GEPHI_TAR"
 tar -xvf "$GEPHI_TAR"
 ln -s "$GEPHI_RUN" ~/Desktop/gephi
+# confirmation
+bold=$(tput bold)
+normal=$(tput sgr0)
+clear
+echo "----------------------- CHCAA says Gephi gogo -----------------------"
+echo "${bold}[INFO] You can now press Open Interface...${normal}"
