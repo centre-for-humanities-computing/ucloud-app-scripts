@@ -10,7 +10,7 @@
 
 ## RStudio Set-up ##
 
-1. add/change packages in `TEX_LIVE_BACKUP_DIR` in `startup_latex.sh`
+1. add/change packages in `TEX_LIVE_INSTALL` in `startup_latex.sh`
 2. copy the `startup_latex.sh` and your `rstudio-prefs.json` to your working directory
 3. run `startup_latex.sh` from the terminal
 ```bash
