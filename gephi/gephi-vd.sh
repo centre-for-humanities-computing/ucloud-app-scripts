@@ -1,6 +1,6 @@
-DL_URL="https://oss.sonatype.org/service/local/artifact/maven/content?r=snapshots&g=org.gephi&a=gephi&v=0.9.3-SNAPSHOT&c=linux&p=tar.gz"
+DL_URL="https://github.com/gephi/gephi/releases/download/v0.10.1/gephi-0.10.1-linux-x64.tar.gz"
 GEPHI_TAR="gephi.tar.gz"
-GEPHI_RUN="/tmp/gephi/gephi-0.9.3-SNAPSHOT/bin/gephi"
+GEPHI_RUN="/tmp/gephi/gephi-0.10.1/bin/gephi"
 cd /tmp
 mkdir gephi
 cd gephi
