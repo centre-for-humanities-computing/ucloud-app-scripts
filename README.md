@@ -29,3 +29,9 @@ sudo -E env "PATH=$PATH" bash startup_latex.sh
 2. Add `orange-vd.sh` as initialization parameter
 3. From the Ubuntu Virtual Desktop start a terminal
 4. Execute `python -m Orange.canvas` from the terminal
+
+## AntConc
+
+1. Choose [Ubuntu VDE](https://docs.cloud.sdu.dk/Apps/ubuntu.html)
+2. Add `antconc-vd.sh` as initialization parameter
+3. Execute `AntConc.sh` found in the Desktop
