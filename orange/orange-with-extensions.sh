@@ -2,7 +2,7 @@ sudo apt-get update -y
 sudo apt-get install libqt5gui5 -y
 pip install PyQt5 PyQtWebEngine
 pip install orange3
-pip install orange3-associate orange3-bioinformatics orange3-educational orange3-explain orange3-fairness orange3-geo orange3-imageanalytics orange3-network orange3-prototypes orange3-SingleCell Orange-Spectroscopy Orange3-Survival-Analysis orange3-text Orange3-Textable orange3-timeseries Orange3-WorldHappiness
+pip install orange3-geo orange3-imageanalytics orange3-network orange3-prototypes orange3-text orange3-timeseries
 
 cat > ~/Desktop/orange3.sh << EOF
 python -m Orange.canvas
